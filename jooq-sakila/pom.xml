@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.5</version>
+        <version>3.3.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -15,8 +15,8 @@
 
     <properties>
         <java.version>21</java.version>
-        <testcontainers.version>1.19.1</testcontainers.version>
-        <testcontainers.jooq.codgen.version>0.0.3</testcontainers.jooq.codgen.version>
+        <testcontainers.version>1.21.3</testcontainers.version>
+        <testcontainers.jooq.codgen.version>0.0.4</testcontainers.jooq.codgen.version>
     </properties>
 
     <dependencies>
@@ -31,6 +31,10 @@
         <dependency>
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-database-postgresql</artifactId>
         </dependency>
         <dependency>
             <groupId>org.postgresql</groupId>
