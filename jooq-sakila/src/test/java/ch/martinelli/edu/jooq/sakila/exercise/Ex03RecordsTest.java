@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static ch.martinelli.edu.jooq.sakila.db.tables.Film.FILM;
 
-public class Ex03RecordsTest extends JooqTestcontainersTest {
+class Ex03RecordsTest extends JooqTestcontainersTest {
 
     @Test
     void film_title_order_by_length() {

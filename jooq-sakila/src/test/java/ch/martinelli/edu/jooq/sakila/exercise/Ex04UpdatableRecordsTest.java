@@ -12,7 +12,7 @@ import static ch.martinelli.edu.jooq.sakila.db.tables.Rental.RENTAL;
 import static ch.martinelli.edu.jooq.sakila.db.tables.Staff.STAFF;
 import static org.jooq.impl.DSL.select;
 
-public class Ex04UpdatableRecordsTest extends JooqTestcontainersTest {
+class Ex04UpdatableRecordsTest extends JooqTestcontainersTest {
 
     @Transactional
     @Test

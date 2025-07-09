@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-public class Ex08JPATest extends JooqTestcontainersTest {
+class Ex08JPATest extends JooqTestcontainersTest {
 
     @Autowired
     private EntityManager em;

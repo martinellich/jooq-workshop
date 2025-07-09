@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 
 import static ch.martinelli.edu.jooq.sakila.db.tables.Rental.RENTAL;
 
-public class Ex07LockingAndTrxTest extends JooqTestcontainersTest {
+class Ex07LockingAndTrxTest extends JooqTestcontainersTest {
 
     @Test
     void optimistic_locking() throws InterruptedException {
