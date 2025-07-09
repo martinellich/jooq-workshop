@@ -7,7 +7,7 @@ import static ch.martinelli.edu.jooq.sakila.db.tables.Actor.ACTOR;
 import static ch.martinelli.edu.jooq.sakila.db.tables.Customer.CUSTOMER;
 import static ch.martinelli.edu.jooq.sakila.db.tables.Film.FILM;
 
-public class Ex02ReturnTypesTest extends JooqTestcontainersTest {
+class Ex02ReturnTypesTest extends JooqTestcontainersTest {
 
     @Test
     void first_last_name_of_first_actor() {

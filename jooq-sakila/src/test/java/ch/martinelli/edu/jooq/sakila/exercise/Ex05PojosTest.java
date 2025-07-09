@@ -10,7 +10,7 @@ import static ch.martinelli.edu.jooq.sakila.db.tables.FilmCategory.FILM_CATEGORY
 import static org.jooq.Records.mapping;
 import static org.jooq.impl.DSL.select;
 
-public class Ex05PojosTest extends JooqTestcontainersTest {
+class Ex05PojosTest extends JooqTestcontainersTest {
 
     @Test
     void film_and_length() {

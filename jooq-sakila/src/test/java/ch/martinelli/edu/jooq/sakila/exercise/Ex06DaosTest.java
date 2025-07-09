@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 
-public class Ex06DaosTest extends JooqTestcontainersTest {
+class Ex06DaosTest extends JooqTestcontainersTest {
 
     @Test
     void read_by_rental_date() {

@@ -17,7 +17,7 @@ import static ch.martinelli.edu.jooq.sakila.db.tables.Language.LANGUAGE;
 import static org.jooq.impl.DSL.count;
 import static org.jooq.impl.DSL.select;
 
-public class Ex01FirstQueryTest extends JooqTestcontainersTest {
+class Ex01FirstQueryTest extends JooqTestcontainersTest {
 
     @Test
     void query() {
