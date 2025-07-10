@@ -78,8 +78,8 @@ class Ex01FirstQueryTest extends JooqTestcontainersTest {
                         DSL.multiset(
                                 select(FILM.TITLE)
                                         .from(FILM)
-                                        .join(FILM_CATEGORY).on(FILM_CATEGORY.FILM_ID.eq(FILM.FILM_ID)
-                                        )))
+                                        .join(FILM_CATEGORY).on(FILM_CATEGORY.FILM_ID.eq(FILM.FILM_ID))
+                                        .where(FILM_CATEGORY.CATEGORY_ID.eq(CATEGORY.CATEGORY_ID))))
                 .from(CATEGORY)
                 .fetch();
 
