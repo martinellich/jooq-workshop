@@ -123,6 +123,7 @@
                                         <daos>true</daos>
                                     </generate>
                                     <target>
+                                        <!-- <directory>src/main/java</directory> -->
                                         <packageName>ch.martinelli.edu.jooq.sakila.db</packageName>
                                     </target>
                                 </generator>
