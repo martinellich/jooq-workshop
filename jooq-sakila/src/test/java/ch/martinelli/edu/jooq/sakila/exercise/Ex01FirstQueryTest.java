@@ -2,10 +2,8 @@ package ch.martinelli.edu.jooq.sakila.exercise;
 
 import ch.martinelli.edu.jooq.sakila.JooqTestcontainersTest;
 import ch.martinelli.edu.jooq.sakila.db.tables.records.ActorRecord;
-import org.jooq.Record1;
-import org.jooq.Record2;
-import org.jooq.Record4;
-import org.jooq.Result;
+import org.jooq.*;
+import org.jooq.Record;
 import org.jooq.impl.DSL;
 import org.junit.jupiter.api.Test;
 
@@ -24,7 +22,7 @@ class Ex01FirstQueryTest extends JooqTestcontainersTest {
     void query() {
         title("A simple query");
 
-        var result = dsl.selectFrom(DSL.dual()).fetch();
+        Result<Record> result = dsl.selectFrom(DSL.dual()).fetch();
 
         println(result);
     }
