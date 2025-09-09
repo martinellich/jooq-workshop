@@ -27,7 +27,7 @@ class Ex02ReturnTypesTest extends JooqTestcontainersTest {
 
         var result = dsl
                 .selectFrom(FILM)
-                .orderBy(FILM.RELEASE_YEAR.desc())
+                .orderBy(FILM.RELEASE_YEAR.asc())
                 .offset(1)
                 .limit(500)
                 .fetch();
